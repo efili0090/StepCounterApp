@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/tbar"/>
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="20dp"
+    android:text="Instructions and Feedback:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/instructions"/>
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="20dp"
+android:gravity="center"
+android:layout_gravity="center"
+android:textStyle="bold"
+android:text="How has your experience been using Fitness Witness? Feel free to leave a comment!"/>
+
+    <EditText
+        android:textSize="20dp"
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:hint="Comments? Questions? Please let me know"/>
+
+  <Button
+    android:id="@+id/email"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundedbutton"
+    android:layout_gravity="center"
+    android:paddingEnd="25dp"
+    android:drawableEnd="@drawable/email"
+    android:textSize="12dp"
+    android:text="@string/sendemail"
+    android:layout_marginTop="8dp"/>
+
+</LinearLayout>

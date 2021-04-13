@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <item
+        android:id="@+id/action_one"
+        android:title="One"
+        android:icon="@drawable/home"
+        android:orderInCategory="1"
+        app:showAsAction="always" />  <!--list item on toolbar-->
+
+    <item
+        android:id="@+id/action_two"
+        android:title="two"
+        android:icon="@drawable/weight"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_three"
+        android:title="three"
+        android:icon="@drawable/activityfeed"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_four"
+        android:title="five"
+        android:icon="@drawable/steps"
+        android:orderInCategory="4"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_five"
+        android:title="five"
+        android:icon="@drawable/help"
+        android:orderInCategory="5"
+        app:showAsAction="always" />
+
+
+    <item android:id="@+id/action_about"
+        android:title="About"
+        android:orderInCategory="3"
+        app:showAsAction="never" /> <!--list item in overflow-->
+
+
+
+</menu>
